@@ -15,7 +15,7 @@ class Student:
         #print ("Marks in subject 3: ", Student.marks[2])
         print ("Marks are: ", Student.marks)
         print ("Total Marks are: ", self.total())
-        print ("Average Marks are: ", self.averege())
+        print ("Average Marks are: ", self.average())
         
     def total(self):
         return (Student.marks[0] + Student.marks[1] +Student.marks[2])
