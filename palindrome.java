@@ -13,7 +13,7 @@ class palindrome
         if(s==n)
         System.out.print("Palindrome Number");
         else
-        System.out.print("Palindrome Number");
+        System.out.print(" Not Palindrome Number");
         
     }
     public static void main(String[] args)
