@@ -20,8 +20,8 @@ class palindrome
     {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a Number:");
-        int n= in.nextInt();
+        int k= in.nextInt();
         palindrome ob = new palindrome();
-        ob.chkpal(n);
+        ob.chkpal(k);
     }
 } 
