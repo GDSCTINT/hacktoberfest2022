@@ -1,3 +1,4 @@
+#Author: Rik Biswas
 def checkDiff(a,b,d):
     f = True
     for i in range(1,len(b)):
