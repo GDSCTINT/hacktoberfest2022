@@ -33,3 +33,4 @@ for x in range(t):
     a = list(map(int ,input().split(" ")))
     b = list(map(int ,input().split(" ")))
     print(driver(a,b,n))
+    print("the changes are done ")
