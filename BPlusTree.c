@@ -21,6 +21,7 @@ typedef struct node
 } node;
 int order = ORDER;
 node *queue = NULL;
+printf("Make a optimised code");
 bool verbose_output = false;
 // Enqueue
 void enqueue(node *new_node);
