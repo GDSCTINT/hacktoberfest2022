@@ -1,5 +1,6 @@
 #include<stdio.h>
-int binarySearch(int arr[],int l,int ele)
+#include<stdlib.h>
+int ArraybinarySearch(int arr[],int l,int ele)
 {
     int left=0;;
     int right=l-1;
@@ -20,7 +21,7 @@ int main()
 {
     int arr[] = {1,2,3,2,1};
     int l = sizeof(arr)/sizeof(int);
-    if(binarySearch(arr,l,3))
+    if(ArraybinarySearch(arr,l,3))
         printf("Found");
     else
         printf("Not Found");
