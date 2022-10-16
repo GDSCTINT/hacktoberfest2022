@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;;
 class palindrome
 {
     public void chkpal(int n)
