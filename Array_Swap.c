@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+
 int *swap(int arr[],int a,int b)
 {
     int c=arr[a];
