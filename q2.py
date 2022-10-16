@@ -1,11 +1,11 @@
 #Author: Rik Biswas
 def checkDiff(a,b,d):
-    f = True
+    k = True
     for i in range(1,len(b)):
         if(b[i]-a[i+1]!=d):
-            f=False
+            k=False
             break
-    return f
+    return k
 
 def driver(a,b,n):
     if (len(a)==2):
