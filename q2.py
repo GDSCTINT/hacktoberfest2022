@@ -1,13 +1,13 @@
 #Author: Rik Biswas
 def checkDiff(a,b,d):
-    f = True
+    s = True
     for i in range(1,len(b)):
         if(b[i]-a[i+1]!=d):
-            f=False
+            s=False
             break
-    return f
+    return s
 
-def driver(a,b,n):
+def Driver(a,b,n):
     if (len(a)==2):
         if max(a) > b[0]:
             return b[0]-min(a)
