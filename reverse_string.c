@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include<stdlib.h>
+
 void reverse_string(char*, int, int);
 
 int main()
