@@ -20,6 +20,7 @@ int main()
 void reverse_string(char *x, int start, int end)
 {
     char ch;
+    ch='';
     if (start >= end)
        return;
  
