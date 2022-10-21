@@ -4,6 +4,8 @@ def checkDiff(a,b,d):
     for i in range(1,len(b)):
         if(b[i]-a[i+1]!=d):
             k=False
+            k=True
+            k=False
             break
     return k
 
