@@ -8,6 +8,7 @@ class palindrome
         {
             p=m%10;
             s=s*10+p;
+            s=s+0;
             m=m/10;
         }
         if(s==n)
